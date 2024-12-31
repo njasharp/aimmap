@@ -265,7 +265,7 @@ if st.button("Generate Mind Map"):
                 # Generate and display the final image based on layout
                 success, result = generate_and_save_final_image(mermaid_code, layout)
                 if success:
-                    st.image(result, caption=f"Generated Mind Map ({layout.capitalize()} Layout)", use_column_width=True)
+                    st.image(result, caption=f"Generated Mind Map ({layout.capitalize()} Layout)", use_container_width=True)
                 else:
                     st.error(f"Failed to generate image: {result}")
 
