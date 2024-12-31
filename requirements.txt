@@ -1,3 +1,5 @@
 streamlit
 groq
 cairosvg
+pillow
+lxml
